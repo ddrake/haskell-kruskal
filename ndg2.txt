@@ -1,0 +1,8 @@
+A B 12
+B D 3
+D E 4
+C E 3
+C B 4
+A E 13
+A C 10.55 
+B E 5

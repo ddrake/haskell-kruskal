@@ -8,6 +8,15 @@ Sample Usage
 ------------
 
 ~~~
+dow@dow-laptop ~/haskell/kruskal $ ghci
+GHCi, version 7.4.1: http://www.haskell.org/ghc/  :? for help
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Prelude> :l Kruskal.hs 
+[1 of 1] Compiling Kruskal          ( Kruskal.hs, interpreted )
+Ok, modules loaded: Kruskal.
+
 *Kruskal> txt <- readFile "ndg3.txt" 
 *Kruskal> let g = fromText txt
 *Kruskal> let tree = kruskal g
